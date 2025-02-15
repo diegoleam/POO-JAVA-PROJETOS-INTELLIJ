@@ -6,6 +6,7 @@ public class CadastraCachorro {
 
     public static void main (String []args) {
 
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("DIGITE O NOME DO CACHORRO");

@@ -66,12 +66,31 @@ class Cachorro {
        this.peso = peso;
   }
 
+  // metodo exibi informações
+
   void info (){
        System.out.println("FICHA CADASTRAL");
        System.out.println("NOME DO CACHORRO : " + nome);
        System.out.println("COR DO CACHORRO : " + raca);
        System.out.println("PESO DO CACHORRO : "+ peso);
        System.out.println("IDADE DO CACHORRO : "+ idade);
+
+  }
+
+  // metodo idade comparação
+  void alerta (){
+
+      if (idade <= 2) {
+          System.out.println(nome + " É JOVEM");
+      }
+      else if (idade > 2 && idade <= 8) {
+          System.out.println(nome + " É ADULTO");
+      }
+
+      else {
+          System.out.println(nome + " ESTÁ NA VELHICE");
+      }
+
 
   }
 

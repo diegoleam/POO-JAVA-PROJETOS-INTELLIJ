@@ -1,6 +1,6 @@
 package animal;
 
-public class ControlaCachorro {
+public class SetCachorro {
 
     public static void main (String []args){
 

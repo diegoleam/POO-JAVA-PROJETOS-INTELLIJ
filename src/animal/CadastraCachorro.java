@@ -26,9 +26,10 @@ public class CadastraCachorro {
         // cria objeto cachorro1
         Cachorro cachorro1 = new Cachorro(cor, nome, raca, idade, peso);
 
-
+        // CHAMA O METODO QUE EXIBI AS INFORMAÇÕES
         cachorro1.info();
-
+        
+        // CHAMA O METODO QUE EXIBI ALERTA DE IDADE 
         cachorro1.alerta();
 
 
